@@ -2,20 +2,13 @@
 using namespace std;
 
 
-void printHello(){
-
-    cout << "Hello\n";
+int sum(int a, int b){
+    int s = a + b;
+    return s;
 
 }
 
 int main(){
-
-    printHello();
-    printHello();
-    printHello();
-    printHello();
-    printHello();
-
+    cout << (10+5)<<endl;
     return 0;
-
 }
