@@ -2,13 +2,16 @@
 using namespace std;
 
 
-int sum(int a, int b){
-    int s = a + b;
-    return s;
+int minoftwo(int a, int b){
+    if(a<b){
+        return a;
+    } else{
+        return b;
+    }
 
 }
 
 int main(){
-    cout << (10+5)<<endl;
+    cout << "min= "<< minoftwo(5,10) <<endl;
     return 0;
-}
+} 
