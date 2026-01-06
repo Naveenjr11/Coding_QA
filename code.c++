@@ -2,8 +2,20 @@
 using namespace std;
 
 
-returnType printHello(){
+void printHello(){
 
-    cout << "Hello";
+    cout << "Hello\n";
+
+}
+
+int main(){
+
+    printHello();
+    printHello();
+    printHello();
+    printHello();
+    printHello();
+
     return 0;
+
 }
