@@ -2,16 +2,18 @@
 using namespace std;
 
 
-int minoftwo(int a, int b){
-    if(a<b){
-        return a;
-    } else{
-        return b;
-    }
+int FactN(int n){
+    int fact = 1;
 
+    for(int i=1; i<=n; i++){
+        fact = fact * i;
+
+    }
+    return fact;
 }
 
 int main(){
-    cout << "min= "<< minoftwo(5,10) <<endl;
+    cout << "sum of N= "<< FactN(5) <<endl;
+    cout << "sum of N= "<< FactN(10) <<endl;
     return 0;
 } 
